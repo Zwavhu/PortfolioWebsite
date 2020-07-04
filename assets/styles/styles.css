@@ -3,14 +3,53 @@
 /*********** Global Styles********/
 
 body, html {
-	background: linear-gradient(170deg, #e6e8ed 0%, rgba(151, 171, 172, 0.84) 100%);
-
-	/* background-color: rgb(252, 76, 237); */
+	/*background: linear-gradient(170deg, #e6e8ed 0%, rgba(151, 171, 172, 0.84) 100%);*/
+	 background-color: rgba(151, 171, 172, 0.84);
 }
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: "Lato", sans-serif !important;
 	font-weight: 900 !important;
+}
+
+
+#navbar {
+	overflow: hidden;
+	background-color: rgba(151, 171, 172, 0.84);
+}
+
+#navbar a {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+#navbar a:hover {
+	/*background-color: #ddd;*/
+	background: linear-gradient(170deg, #e6e8ed 0%, rgba(151, 171, 172, 0.84) 100%);
+}
+
+#navbar a.active {
+	background-color: #edd2e1;
+	color: white;
+}
+
+.content {
+	padding: 16px;
+}
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.sticky + .content {
+	padding-top: 60px;
 }
 
 .wrapper {
@@ -82,9 +121,7 @@ h1, h2, h3, h4, h5, h6 {
 		/*background-color: #FC4CED;*/
 		/*background: linear-gradient(170deg, #B9DEED 0%, #1b88acd5 100%);*/
 		background: linear-gradient(170deg, #edd2e1 0%, rgba(172, 92, 161, 0.5) 100%);
-
-
-	padding-bottom: 1em;
+		padding-bottom: 1em;
 }
 
 #about img {
@@ -154,9 +191,9 @@ h1, h2, h3, h4, h5, h6 {
 
 /*** Experience ***/
 #experience {
-	background: linear-gradient(170deg, rgba(172, 92, 161, 0.5)  0%, #edd2e1 100%);
+	/*background: linear-gradient(170deg, rgba(172, 92, 161, 0.5)  0%, #edd2e1 100%);*/
 	/*background: linear-gradient(170deg, rgba(213, 184, 249, 0.68) 0%, rgba(172, 98, 158, 0.72) 100%);*/
-	/* background-color: #00A4CCFF; */
+ 	background-color: rgba(172, 98, 158, 0.72);
 	padding: 6em 4em 5.6em;
 }
 

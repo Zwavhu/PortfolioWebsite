@@ -30,6 +30,15 @@
 
 	<!-- Watch how to deploy it live -->
 	<!-- https://youtu.be/E1dqffpUlMA -->
+
+
+	<div id="navbar">
+		<a class="active" href="javascript:void(0)">Home</a>
+		<a href="#experience">Experience</a>
+		<a href="#work">Projects</a>
+		<a href="_CV.pdf">CV/Resume Portfolio</a>
+	</div>
+
 	<div class="wrapper">
 		
 
@@ -143,7 +152,7 @@
 						<h3>Starbucks Store Locator</h3>
 						<p class="platform">Web</p>
 						<p class="icons"><i class="fi-monitor"></i><i class="fi-tablet-portrait"></i><i class="fi-mobile"></i></p>
-						<p>On this website, you can search for Starbucks stores, click on it and it will show the store details ans location on a map. </p>
+						<p>On this website, you can search for Starbucks stores (using the postal code), click on it and it will show the store details ans location on a map. </p>
 						<a class="my-button" target="_blank" href="https://storeslocator.azurewebsites.net/">Visit Website</a>
 					</div>
 				</div>
@@ -161,12 +170,10 @@
 						<p>This is a game similar to space invaders with two players at the top and bottom. Players win if they kill all aliens before
 							they invade the player's space. A player loses if the alien armada invades a player's space
 							and if an alien shoots one of the players.</p>
-						<a class="my-button" target="_blank" href="http://google.com">Watch Video</a>
+						<a class="my-button" target="_blank" href="https://youtu.be/-GD0jV4MTxU">Watch Video</a>
 					</div>
 				</div>
 			</div>
-
-
 		</section>
 
 		<!-- <section id="teaching">
@@ -210,6 +217,20 @@
 
 	</div>
 	<script src="assets/scripts/app.js" charset="utf-8"></script>
+	<script>
+		window.onscroll = function() {myFunction()};
+
+		var navbar = document.getElementById("navbar");
+		var sticky = navbar.offsetTop;
+
+		function myFunction() {
+			if (window.pageYOffset >= sticky) {
+				navbar.classList.add("sticky")
+			} else {
+				navbar.classList.remove("sticky");
+			}
+		}
+	</script>
 </body>
 
 </html>

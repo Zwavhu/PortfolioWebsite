@@ -411,6 +411,43 @@ h1, h2, h3, h4, h5, h6 {
 	color: white;
 }
 
+#footer .sn-button {
+	color: #e1e1e2;
+	/*background-color: #00ccff;*/
+	background-color: rgba(172, 98, 158, 0.72);
+	margin-top: 3em;
+	font-size: 1em;
+	line-height: normal;
+	text-transform: uppercase;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	-webkit-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out, color 0.2s 0.3s;
+	letter-spacing: 0;
+	border-radius: 45px;
+	height: auto;
+	padding: .6em 0.2em;
+	margin-left: 5px;
+	margin-right: 5px;
+
+
+}
+
+#footer .sn-button:hover {
+	cursor: pointer;
+	padding: .7em 1.7em;
+	background-color: #e8b0ed;
+}
+
+#footer .sn-button:active,
+#footer .sn-button:focus,
+#footer .sn-button.active {
+	background-image: none;
+	outline: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
 
 .profile-photo {
 	width: 350px;
@@ -420,4 +457,57 @@ h1, h2, h3, h4, h5, h6 {
     background-size: cover;
     margin-top: -100px;
 	margin-bottom: 40px;
+}
+
+
+/* Tablet Landscape */
+@media screen and (max-width: 1060px) {
+	#primary { width:67%; }
+	#secondary { width:30%; margin-left:3%;}
+
+	object{
+		width: 6000px;
+		height: 9000px;
+	}
+}
+/* Tabled Portrait */
+@media screen and (max-width: 768px) {
+	#primary { width:100%; }
+	#secondary { width:100%; margin:0; border:none; }
+
+	#footer .sn-button {
+		color: #e1e1e2;
+		/*background-color: #00ccff;*/
+		background-color: rgba(231, 119, 255, 0.72);
+		margin-top: 20em;
+		font-size: 0.4em;
+		line-height: normal;
+		text-transform: uppercase;
+		font-family: 'Lato', sans-serif;
+		font-weight: 100;
+		-webkit-transition: all .3s ease-in-out;
+		transition: all .3s ease-in-out, color 0.2s 0.3s;
+		letter-spacing: 0;
+		border-radius: 45px;
+		height: auto;
+		padding: .5em 0.2em;
+		margin-left: 25px;
+		margin-right: 25px;
+	}
+
+	#footer .sn-button:hover {
+		cursor: pointer;
+		padding: .7em 1.7em;
+		background-color: #e8b0ed;
+	}
+
+	#footer .sn-button:active,
+	#footer .sn-button:focus,
+	#footer .sn-button.active {
+		background-image: none;
+		outline: 0;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+	}
+
 }

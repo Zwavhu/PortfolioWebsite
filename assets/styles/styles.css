@@ -3,8 +3,10 @@
 /*********** Global Styles********/
 
 body, html {
-		background-color:  #FC4CED;
-		/* background-color: rgb(252, 76, 237); */
+	/*background-color:  #FC4CED;*/
+	background: linear-gradient(170deg, #e6e8ed 0%, rgba(151, 171, 172, 0.84) 100%);
+
+	/* background-color: rgb(252, 76, 237); */
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -13,7 +15,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .wrapper {
-		background: #FC4CED;
+	/*background: #FC4CED;*/
+	background: linear-gradient(170deg, #e3e4ed 0%, rgba(165, 155, 172, 0.84) 100%);
+
 }
 
 .img-circle {
@@ -66,7 +70,7 @@ h1, h2, h3, h4, h5, h6 {
 /*** thin bar ***/
 
 .thin-bar {
-		border-bottom: 5px solid #FF3EA5FF;
+		/*border-bottom: 5px solid #FF3EA5FF;*/
 }
 
 
@@ -74,9 +78,13 @@ h1, h2, h3, h4, h5, h6 {
 
 #about {
 		margin-top: 10em;
-		border: 1px solid #FC4CED;
-		background-color: #FC4CED;
-		padding-bottom: 1em;
+		/*border: 1px solid #FC4CED;*/
+		/*background-color: #FC4CED;*/
+		/*background: linear-gradient(170deg, #B9DEED 0%, #1b88acd5 100%);*/
+		background: linear-gradient(170deg, #edd2e1 0%, rgba(172, 102, 152, 0.84) 100%);
+
+
+	padding-bottom: 1em;
 }
 
 #about img {
@@ -115,15 +123,17 @@ h1, h2, h3, h4, h5, h6 {
 .cta .cta-button {
 		color: #FF3EA5FF;
 		text-transform: uppercase;
-		border: 2px solid #FF3EA5FF;
+		/*border: 2px solid #FF3EA5FF;*/
 		border-radius: 50px;
 		background: white;
 }
 
 .cta .cta-button:hover, .cta .cta-button:focus {
 		box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 14px 1px rgba(0, 0, 0, 0.15);
-		background-color: #FF3EA5FF;
-		color: white;
+		/*background-color: #FF3EA5FF;*/
+		background: linear-gradient(170deg, #e430ed 0%, rgba(172, 102, 152, 0.84) 100%);
+
+	color: white;
 }
 
 #about i {
@@ -144,7 +154,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /*** Experience ***/
 #experience {
-	background-color: #4CFCC4;
+	/*background-color: #4CFCC4;*/
+	background: linear-gradient(170deg, #ccb0ed 0%, rgba(172, 127, 172, 0.84) 100%);
 	/* background-color: #00A4CCFF; */
 	padding: 6em 4em 5.6em;
 }
@@ -313,6 +324,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 1.6em;
 	font-weight: 500;
 	display: inline;
+	bo
 }
 
 #footer #copyright {

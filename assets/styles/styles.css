@@ -490,7 +490,7 @@ h1, h2, h3, h4, h5, h6 {
 		color: #e1e1e2;
 		/*background-color: #00ccff;*/
 		background-color: rgba(231, 119, 255, 0.72);
-		margin-top: 5em;
+		margin-top: 0.1em;
 		font-size: 2em;
 		line-height: normal;
 		text-transform: uppercase;

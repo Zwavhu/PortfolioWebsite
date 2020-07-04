@@ -94,6 +94,5 @@ const Portfolio = function() {
 }();
 
 
-
 Portfolio.displayWordCloud();
 Portfolio.typeAnimation();

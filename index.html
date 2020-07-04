@@ -21,6 +21,21 @@
 	<link href="https://fonts.googleapis.com/css?family=Maven+Pro:400,500" rel="stylesheet">
 	<link rel="stylesheet" href="assets/fonts/foundation-icons/foundation-icons.css">
 	<link rel="stylesheet" href="assets/styles/styles.css">
+
+	<script>
+		window.onscroll = function() {myFunction()};
+
+		var navbar = document.getElementById("navbar");
+		var sticky = navbar.offsetTop;
+
+		function myFunction() {
+			if (window.pageYOffset >= sticky) {
+				navbar.classList.add("sticky")
+			} else {
+				navbar.classList.remove("sticky");
+			}
+		}
+	</script>
 </head>
 
 <body>
@@ -217,20 +232,7 @@
 
 	</div>
 	<script src="assets/scripts/app.js" charset="utf-8"></script>
-<!--	<script>-->
-<!--		window.onscroll = function() {myFunction()};-->
 
-<!--		var navbar = document.getElementById("navbar");-->
-<!--		var sticky = navbar.offsetTop;-->
-
-<!--		function myFunction() {-->
-<!--			if (window.pageYOffset >= sticky) {-->
-<!--				navbar.classList.add("sticky")-->
-<!--			} else {-->
-<!--				navbar.classList.remove("sticky");-->
-<!--			}-->
-<!--		}-->
-<!--	</script>-->
 </body>
 
 </html>

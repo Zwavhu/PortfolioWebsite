@@ -190,12 +190,7 @@ h1, h2, h3, h4, h5, h6 {
 	color: white;
 }
 
-.fa  #btn {
-	font-size: 0.5em;
-	padding: 0.1em 0.4em;
-	/* color: #8a8a8a; */
-	color: white;
-}
+
 
 .fa:hover {
 	cursor: pointer;
@@ -333,7 +328,7 @@ h1, h2, h3, h4, h5, h6 {
 	border-radius: 45px;
 	height: auto;
 	display: flex;
-	padding: .8em 2.1em;
+	padding: .6em 2.1em;
 	justify-content: center;
 	align-items: center;
 
@@ -496,7 +491,7 @@ h1, h2, h3, h4, h5, h6 {
 		/*background-color: #00ccff;*/
 		background-color: rgba(231, 119, 255, 0.72);
 		margin-top: 5em;
-		font-size: 0.2em;
+		font-size: 1em;
 		line-height: normal;
 		text-transform: uppercase;
 		font-family: 'Lato', sans-serif;
@@ -506,7 +501,7 @@ h1, h2, h3, h4, h5, h6 {
 		letter-spacing: 0;
 		border-radius: 45px;
 		height: auto;
-		padding: .4em 0.5em;
+		padding: .6em 0.2em;
 		margin-left: 0.1px;
 		margin-right: 0.1px;
 		justify-content: center;
